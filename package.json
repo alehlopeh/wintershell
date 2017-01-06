@@ -14,6 +14,7 @@
     "server": "micro -p 3000 -H localhost server.js"
   },
   "dependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
     "react": "15.3.2",
     "react-native-macos": "^0.12.0-rc.1"
   },
