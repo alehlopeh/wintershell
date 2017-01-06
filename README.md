@@ -2,6 +2,8 @@
 
 A proof of concept Alfred/Quicksilver/Spotlight clone built with React Native macOS
 
+![wintershell](https://cloud.githubusercontent.com/assets/447731/21702922/759b08ea-d37c-11e6-9fa5-f96f825becb5.gif)
+
 This implementation is quick and dirty and not at all complete. I decided to build this after seeing some great new launchers based on Electron come out. Resource usage can be a little intensive in Electron apps, and I've been meaning to play with React Native macOS for a while, so I built this.
 
 ### Caveats
@@ -20,7 +22,7 @@ Not implemented:
 
 ### Results
 
-The application itself uses Xkb RAM while idle. Granted, the node process uses its own resources, but proper filesystem access will eliminate this overhead.
+The application itself uses around 18mb RAM running in Xcode. Granted, the node process also uses its own resources, but proper filesystem access should eliminate this overhead.
 
 ### Setup
 
